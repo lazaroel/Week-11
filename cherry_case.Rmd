@@ -125,6 +125,8 @@ par(mfrow=c(1, 3))
 plot(res1)
 plot(res2)
 plot(res3)
+
+gam.check(res1)
 ```
 
 $\hat f$ is smooth, don't need many basis functions
