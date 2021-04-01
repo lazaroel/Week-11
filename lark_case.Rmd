@@ -61,6 +61,9 @@ Smoothness parameters estimated via REML.
 
 ```{r birds-gam-2}
 summary(crest)
+
+gratia::appraise(crest)
+draw(crest)
 ```
 
 
@@ -115,5 +118,6 @@ ggplot(data.frame(Fitted = fitted(crest2),
 library(gratia)
 appraise(crest3)
 gam.check(crest3)
+draw(crest3)
 ```
 
